@@ -19,6 +19,11 @@ import Componente01 from './src/simulacro-parcial/Componente01';
 import Props02 from './src/simulacro-parcial/Props02';
 import Axios03 from './src/simulacro-parcial/Axios03';
 import AsyncStorage04 from './src/simulacro-parcial/AsyncStorage04';
+import ComponenteParcial01 from './src/primera-parcial/ComponenteParcial01';
+import PropsParcial02 from './src/primera-parcial/PropsParcial02';
+import AxiosParcial03 from './src/primera-parcial/AxiosParcial03';
+import AsyncStorageParcial04 from './src/primera-parcial/AsyncStorageParcial04';
+
 const Stack = createNativeStackNavigator();
 
 const App = () =>{
@@ -26,7 +31,7 @@ const App = () =>{
     //<ScrollView>
       
        <NavigationContainer>
-          <Stack.Navigator initialRouteName="Comp1">
+          <Stack.Navigator initialRouteName="ComponenteParcial01">
           {/* <Stack.Screen name="Home" component={Home} />
             <Stack.Screen name="Notas" component={ListNotasComponents} />
             <Stack.Screen name="Avatar" component={AvatarBasic} />
@@ -36,10 +41,14 @@ const App = () =>{
             <Stack.Screen name="Props" component={PropsEjemplo} />
             <Stack.Screen name="Axios" component={AxiosEjemplo} />
             <Stack.Screen name="Async" component={AsyncStorageEjemplo} /> */}
-            <Stack.Screen name="Comp1" component={Componente01} />
+            {/* <Stack.Screen name="Comp1" component={Componente01} />
             <Stack.Screen name="Props02" component={Props02} />
             <Stack.Screen name="Axios03" component={Axios03} />
-            <Stack.Screen name="AsyncStorage04" component={AsyncStorage04} />
+            <Stack.Screen name="AsyncStorage04" component={AsyncStorage04} /> */}
+             <Stack.Screen name="ComponenteParcial01" component={ComponenteParcial01} />
+             <Stack.Screen name="PropsParcial02" component={PropsParcial02} />
+             <Stack.Screen name="AxiosParcial03" component={AxiosParcial03} />
+             <Stack.Screen name="AsyncStorageParcial04" component={AsyncStorageParcial04} />
           </Stack.Navigator>
        </NavigationContainer>
 
