@@ -6,7 +6,7 @@ const Home = ({navigation}) => {
 
   const profesionales = [
     {
-      name: 'Gabriel',
+      name: 'Andres',
       occupation: 'Analista de Sistemas',
       age: 31
     },
